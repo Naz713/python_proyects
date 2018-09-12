@@ -19,8 +19,9 @@ def wait_GET(buff):
     get = r"GET"
     chunks = buff.split(patt)
     for ch in chunks:
-        
-        if 
+        isget = re.search(get, ch)
+        if isget :
+            
     
     
     
